@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #c4ffe7;
+  background-image: url(http://40.media.tumblr.com/fbe113d590b2452c900df6382d2e4de4/tumblr_nusxhhIdWE1swobbmo1_500.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  margin-top:4vh;
+  margin-left:8vh;
+}
+
+.menu li {
+  float: left;
+  padding-right: 30px;
+  font-size: 1.5em;
+  color: #0b41e3;
+  list-style-type: none;
+}
+
+.menu li a {
+  color: #0b41e3;
+  text-decoration: none;
+}
+
+#title {
+  margin-top: 5vh;
+  margin-bottom:2vh;
+  color: #5c5c5c;
+}
+
+h1, p {
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.portfolio {
+  width:50%;
+}
+
+.menu li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: magenta;
+  text-decoration: underline;
+}
+
+.menu li a i {
+  color: gray;
+  text-decoration: none;
+}
+
+.menu li a i:hover {
+  color: magenta;
+  text-decoration: underline;
+}
